@@ -10,10 +10,9 @@ import {
   Box,
 } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
-import { symptomsList } from '../symptomsList';
 
-function SymptomSearchBar() {
-  const [selectedSymptoms, setSelectedSymptoms] = useState([]);
+function SearchBar({dataList, selectedSymptoms, setSelectedSymptoms}) {
+  
 
   const filterOptions = (options, { inputValue }) => {
     const input = inputValue.trim().toLowerCase();
@@ -100,12 +99,13 @@ function SymptomSearchBar() {
   );
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%', maxWidth: '750px', margin: '0 auto'}}>
       <Autocomplete
-        options={symptomsList}
+        options={dataList}
         getOptionLabel={(option) => option.name}
         filterOptions={filterOptions}
         onChange={(event, newValue) => {
+          //console.log(selectedSymptoms);
           if (newValue && !selectedSymptoms.includes(newValue)) {
             setSelectedSymptoms([...selectedSymptoms, newValue]);
           }
@@ -124,7 +124,7 @@ function SymptomSearchBar() {
 
       {/* Display selected symptoms */}
       {selectedSymptoms.length > 0 && (
-        <Box sx={{display: 'flex', flexWrap: 'wrap', gap: 1, marginBottom: '1rem' }}>
+        <Box sx={{display: 'flex', flexWrap: 'wrap', gap: 1, marginBottom: '1rem'}}>
           {selectedSymptoms.map((symptom) => (
             <Chip
               key={symptom.name}
@@ -149,4 +149,4 @@ function SymptomSearchBar() {
   );
 }
 
-export default SymptomSearchBar;
+export default SearchBar;
