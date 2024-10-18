@@ -80,6 +80,11 @@ function SymptomSearchBar() {
       label="Search Symptoms"
       placeholder="Type to search"
       variant="outlined"
+      InputLabelProps={{
+        sx: {
+          fontSize: '1rem',
+        },
+      }}
       InputProps={{
         ...params.InputProps,
         startAdornment: (
@@ -87,6 +92,9 @@ function SymptomSearchBar() {
             <SearchIcon color="primary" />
           </InputAdornment>
         ),
+        sx: {
+          marginBottom: '1rem',
+        },
       }}
     />
   );
@@ -107,7 +115,7 @@ function SymptomSearchBar() {
         value={null}
         ListboxProps={{
           style: {
-            maxHeight: '250px',
+            maxHeight: '300px',
             overflow: 'auto',
           },
         }}
@@ -116,7 +124,7 @@ function SymptomSearchBar() {
 
       {/* Display selected symptoms */}
       {selectedSymptoms.length > 0 && (
-        <Box sx={{ marginTop: '1rem', display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+        <Box sx={{display: 'flex', flexWrap: 'wrap', gap: 1, marginBottom: '1rem' }}>
           {selectedSymptoms.map((symptom) => (
             <Chip
               key={symptom.name}
