@@ -21,7 +21,7 @@
 - [ ] Access to Shelter and Resources
 > - Solutions to improve on-demand access and availability of shelters, food banks, medical aid, and social services for homeless individuals.
 > - Question: How can we develop technological solutions that provide real-time, on-demand information updates on available shelters, food banks, hygiene stations, medical clinics, and social services for people experiencing homelessness?
-- [ X] Health and Mental Wellness Support
+- [X] Health and Mental Wellness Support
 > - Tools to provide remote mental health support, connect to mobile healthcare providers, or manage chronic conditions common in homeless populations using mobile devices.
 > - Question: How can we create tools or mobile applications that deliver remote mental health care, help manage chronic health conditions, or connect unhoused individuals with trusted health professionals?
 - [ ] Housing and Employment Pathways
@@ -30,7 +30,7 @@
 - [ ] Safety and Community Engagement
 > - Solutions to increase personal safety, prevent violence, and foster community support and empathy networks for homeless people.
 > - Question: How might we design technological solutions that improve safety for unhoused individuals, reduce violence, and build empathy and community support through storytelling, social engagement, or civic partnerships?
-- [ X] Data-Driven Policy and User-Centered Resource Planning
+- [X] Data-Driven Policy and User-Centered Resource Planning
 > - Use of geospatial and demographic data to better understand homeless population trends, optimize resource allocation, and support policy advocacy.
 > - Question: How can we use geospatial data, census data, and AI to map trends in homelessness, identify service gaps, and support equitable decision making and public advocacy
 - [ ] Other Possible Topics
