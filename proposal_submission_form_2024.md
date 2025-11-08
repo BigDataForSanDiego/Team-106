@@ -12,7 +12,7 @@
 ##### `MTS Insight is an AI-powered intelligence platform that maps the interaction between unhoused populations and public transit to pinpoint critical service gaps and empower data-driven outreach`
 
 #### A visual
-![bigdatahackathon4sd](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/images/big_data_2025_clip.png?raw=true "Big Data Hackathon for San Diego 2025")
+![bigdatahackathon4sd]([https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/images/big_data_2025_clip.png?raw=true "Big Data Hackathon for San Diego 2025](https://github.com/BigDataForSanDiego/Team-106/blob/main/visual%20sdsu.jpg)
 
 <img height="10%" width="50%" alt="HDMA" src="https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/templates/img/hdma2.png?raw=true"> 
 
